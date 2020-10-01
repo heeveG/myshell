@@ -2,10 +2,10 @@
 // Created by heeve on 29.09.20.
 //
 
-#include "builtins.h"
+#include "../headers/builtins.h"
 #include <iostream>
 #include <vector>
-#include <stdlib.h>
+#include <cstdlib>
 
 
 int mecho(const std::vector<std::string> &args, bool bHelp) {

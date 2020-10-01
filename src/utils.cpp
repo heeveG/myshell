@@ -73,6 +73,6 @@ void setup_path(){
     std::string path_str;
     if (path_ptr != nullptr)
         path_str = path_ptr;
-    (path_str += ":") += cwd;
+    ((path_str += ":") += cwd) += "/utils";
     setenv("PATH", path_str.c_str(), 1);
 }

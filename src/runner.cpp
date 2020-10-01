@@ -36,7 +36,5 @@ int main(int argc, char **argv) {
             launch(args);
         args.clear();
         free(input);
-
     }
-
 }
