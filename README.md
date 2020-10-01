@@ -17,11 +17,14 @@ The rest prerequisites (such as development libraries) can be found in the [pack
     ```bash
     git clone git@github.com:heeveG/myshell.git
     ```
-3. Build.
+2. Build.
     ```bash
     mkdir b && cd b
     cmake ..
     make
+    ```
+3. Run
+    ```bash
     ./myshell
     ```
 
